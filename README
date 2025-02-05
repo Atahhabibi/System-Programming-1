@@ -1,0 +1,19 @@
+
+## Implementation Details
+- The program reads files **byte by byte** and prints them in formatted output.
+- Non-printable characters are replaced with `.` (ASCII hex `2E`).
+- Uses `ifstream` for reading files in **binary mode**.
+- Handles errors (e.g., file not found).
+
+## Files Included
+- `xed.cpp` - Main source code
+- `Makefile` - Compilation instructions
+- `README` - This file
+
+## Notes
+- Ensure the file exists before running the program.
+- Only **regular files** are supported (no directories, symlinks, or special files).
+
+## Author
+- **Atah habibi**
+- **CS530, Spring 2025**
